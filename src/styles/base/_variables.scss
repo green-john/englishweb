@@ -1,0 +1,60 @@
+// layouts
+$maxContainerWidth: 75rem;
+
+// colors
+$mainColor: #2f2fa2;
+$secondaryColor: rgba(242,242,242, 0.4);
+$backgroundColor: #ffffff;
+$textColor: #1b262c;
+
+// can get more granular
+$containerBackgroundColor: $backgroundColor;
+$navColor: $backgroundColor;
+$navLabelsColor: $textColor;
+$socialProofBackgroundColor: #f4eeff;
+$productBenefitsColor: $secondaryColor;
+$productFeatureColor: $backgroundColor;
+$testimonialsBackgroundColor: $secondaryColor;
+$ctaBackgroundColor: $backgroundColor;
+$buttonColor: $mainColor;
+
+// Font sizes
+$font-size-1: 12px;
+$font-size-2: 14px;
+$font-size-3: 16px;
+$font-size-4: 18px;
+$font-size-5: 20px;
+$font-size-6: 24px;
+$font-size-7: 30px;
+$font-size-8: 36px;
+$font-size-9: 48px;
+$font-size-10: 60px;
+$font-size-11: 72px;
+
+// Font weight
+$font-weight-1: 400;
+$font-weight-2: 500;
+$font-weight-3: 600;
+$font-weight-4: 700;
+
+// General Sizes
+// As a rule, we don't add or remove sizes from here. We try to adapt
+// the design to use these values.
+$size-1: 2px;
+$size-1p5: 3px;
+$size-2: 4px;
+$size-3: 8px;
+$size-4: 12px;
+$size-5: 16px;
+$size-6: 24px;
+$size-7: 32px;
+$size-8: 48px;
+$size-9: 64px;
+$size-10: 96px;
+$size-11: 128px;
+$size-12: 192px;
+$size-13: 256px;
+$size-14: 384px;
+$size-15: 512px;
+$size-16: 640px;
+$size-17: 768px;
