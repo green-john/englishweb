@@ -1,0 +1,32 @@
+.blog-content {
+  p {
+    margin-bottom: $size-7;
+    font-size: $font-size-6;
+
+    @media only screen and (min-width: 40rem) {
+      body {
+        font-size: $font-size-5;
+      }
+    }
+  }
+
+  a {
+    text-decoration: underline;
+    font-size: $font-size-5;
+  }
+
+  h2, h3 {
+    margin-bottom: $size-4;
+    margin-top: $size-8;
+  }
+
+  h2 {
+    font-size: $font-size-7;
+    font-weight: $font-weight-4;
+  }
+
+  h3 {
+    font-size: $font-size-6;
+    font-weight: $font-weight-2;
+  }
+}

@@ -13,8 +13,8 @@ const Layout = ({ lang, children }) => {
   return (
     <>
       <Header lang={lang} siteTitle={"English Web"} />
-      <div className="container">
-        <main className="container-main">{children}</main>
+      <div className="my-container">
+        <main className="my-container-main w-screen">{children}</main>
         <Footer siteTitle={"EnglishWeb"} />
       </div>
     </>

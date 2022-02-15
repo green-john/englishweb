@@ -1,12 +1,12 @@
 import React from "react"
 
-import Layout from "../components/Layout"
-import ValueProp from "../components/ValueProp"
-import ProductBenefits from "../components/ProductBenefits"
-import ProductFeatures from "../components/ProductFeatures"
-import CallToAction from "../components/CallToAction"
-import HeroImg from "../components/HeroImg"
-import SEO from "../components/SEO"
+import Layout from "../../components/Layout"
+import ValueProp from "../../components/ValueProp"
+import ProductBenefits from "../../components/ProductBenefits"
+import ProductFeatures from "../../components/ProductFeatures"
+import CallToAction from "../../components/CallToAction"
+import HeroImg from "../../components/HeroImg"
+import SEO from "../../components/SEO"
 
 const IndexPage = ({params}) => {
     const {lang} = params;

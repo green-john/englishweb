@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React, { useState } from "react"
-import { t } from "../services/languageService"
+import {ABOUT_HEADER, BLOG_HEADER, CONTACT_US, t} from "../services/languageService"
 import LanguageSelector from "./LanguageSelector"
 
 const Header = ({ lang = "en", siteTitle }) => {
@@ -18,23 +18,23 @@ const Header = ({ lang = "en", siteTitle }) => {
 
   return (
     <header>
-      <nav className="navbar">
-        <div className="nav-belt">
+      <nav className="my-navbar">
+        <div className="my-nav-belt">
           <div className="header-lang">
-            <h4>
+            <h1 className="text-2xl font-extrabold md:text-3xl lg:text-4xl">
               <Link className="logo" to="/">
                 <div className="logo-image" />
                 {siteTitle}
               </Link>
-            </h4>
+            </h1>
           </div>
 
           <ul className={navClasses}>
             <li className={navItemClasses}><LanguageSelector currentLang={lang} /> </li>
             <li className={navItemClasses}><a href="/">{t("headerHome", lang)}</a></li>
-            <li className={navItemClasses}><a href="#benefits">{t("headerBenefits", lang)}</a></li>
-            <li className={navItemClasses}><a href="#features">{t("headerFeatures", lang)}</a></li>
-            <li className={`${navItemClasses} nav-item-bold`}><a href="#contact">{t("contactUs", lang)}</a></li>
+            {/*<li className={navItemClasses}><a href={"/" + lang + "/about"}>{t(ABOUT_HEADER, lang)}</a></li>*/}
+            <li className={navItemClasses}><a href={"/" + lang + "/blog"}>{t(BLOG_HEADER, lang)}</a></li>
+            <li className={`${navItemClasses} nav-item-bold`}><a href={"/" + lang + "/contact"}>{t(CONTACT_US, lang)}</a></li>
           </ul>
           <div className={burgerClass} onClick={toggle}>
             <div className="burger-line-1"></div>

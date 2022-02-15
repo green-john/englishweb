@@ -8,7 +8,7 @@ const ValueProp = ({ lang }) => {
     <section className="value-prop">
       <div className="value-prop-content">
         <div className="main-message">
-          <h1>{t("valuePropMainText", lang)}</h1>
+          <h1 className="text-4xl font-extrabold">{t("valuePropMainText", lang)}</h1>
           <p className="main-subtitle">
             {t("valuePropDesc", lang)}
           </p>

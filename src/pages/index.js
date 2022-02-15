@@ -12,7 +12,6 @@ import Seo from "../components/SEO"
 
 const IndexPage = () => (
   <Layout>
-      <div>HEEEEY</div>
       <Seo title="English Web" description="We help you with your online presence." />
       <HeroImg />
       <ValueProp lang={ENGLISH_LANG} />

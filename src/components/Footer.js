@@ -3,7 +3,7 @@ import React from "react"
 const Footer = ({ siteTitle }) => {
 
   return (
-    <footer className="footer">
+    <footer className="footer mt-5">
       <div className="footer-belt">
         <div className="company-sign">
           &copy; 2021 {siteTitle}

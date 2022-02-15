@@ -11,7 +11,7 @@ module.exports = {
         options: {
             "trackingId": "000"
         }
-    }, "gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-json", "gatsby-transformer-sharp", {
+    }, "gatsby-transformer-remark", "gatsby-plugin-postcss", "gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-json", "gatsby-transformer-sharp", {
         resolve: 'gatsby-source-filesystem',
         options: {
             "name": "images",
