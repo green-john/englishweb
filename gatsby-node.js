@@ -13,27 +13,30 @@ exports.createPages = async function ({actions, graphql}) {
           }
         }`)
 
-    console.log('data', data.allMarkdownRemark.nodes);
-
     const postsPerLanguage = new Map();
+    createPostsPages(data.allMarkdownRemark.nodes, postsPerLanguage, actions.createPage);
+    createBlogIndexPages(postsPerLanguage, actions.createPage);
+}
 
-    data.allMarkdownRemark.nodes.forEach(node => {
+function createPostsPages(data, postsPerLanguage, createPage) {
+    data.forEach(node => {
         const {slug, lang, title, date} = node.frontmatter;
 
         if (!postsPerLanguage.has(lang)) {
             postsPerLanguage.set(lang, []);
         }
 
-        postsPerLanguage.get(lang).push({ title, date, slug })
+        postsPerLanguage.get(lang).push({title, date, slug})
 
-        console.log('cpb', slug, lang)
-        actions.createPage({
+        createPage({
             path: `/${lang}/blog/${slug}`,
             component: require.resolve('./src/templates/blog-template.jsx'),
             context: {slug: slug, lang: lang}
         })
     })
+}
 
+function createBlogIndexPages(postsPerLanguage, createPage) {
     for (let lang of postsPerLanguage.keys()) {
         const posts = postsPerLanguage.get(lang);
         posts.sort((a, b) => {
@@ -48,8 +51,7 @@ exports.createPages = async function ({actions, graphql}) {
             return 0;
         })
 
-        console.log('cpbi', lang, posts)
-        actions.createPage({
+        createPage({
             path: `/${lang}/blog/`,
             component: require.resolve('./src/templates/blog-index-template.jsx'),
             context: {lang, posts}
