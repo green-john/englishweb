@@ -13,6 +13,8 @@ exports.createPages = async function ({actions, graphql}) {
           }
         }`)
 
+    console.log('data', data.allMarkdownRemark.nodes);
+
     const postsPerLanguage = new Map();
 
     data.allMarkdownRemark.nodes.forEach(node => {
@@ -24,9 +26,10 @@ exports.createPages = async function ({actions, graphql}) {
 
         postsPerLanguage.get(lang).push({ title, date, slug })
 
+        console.log('cpb', slug, lang)
         actions.createPage({
             path: `/${lang}/blog/${slug}`,
-            component: require.resolve('./src/pages/blog-template.jsx'),
+            component: require.resolve('./src/templates/blog-template.jsx'),
             context: {slug: slug, lang: lang}
         })
     })
@@ -45,9 +48,10 @@ exports.createPages = async function ({actions, graphql}) {
             return 0;
         })
 
+        console.log('cpbi', lang, posts)
         actions.createPage({
             path: `/${lang}/blog/`,
-            component: require.resolve('./src/pages/blog-index-template.jsx'),
+            component: require.resolve('./src/templates/blog-index-template.jsx'),
             context: {lang, posts}
         })
     }

@@ -1,6 +1,6 @@
-import { Link } from "gatsby"
-import React, { useState } from "react"
-import {ABOUT_HEADER, BLOG_HEADER, CONTACT_US, t} from "../services/languageService"
+import {Link} from "gatsby"
+import React, {useState} from "react"
+import {BLOG_HEADER, CONTACT_US, t} from "../services/languageService"
 import LanguageSelector from "./LanguageSelector"
 
 const Header = ({ lang = "en", siteTitle }) => {

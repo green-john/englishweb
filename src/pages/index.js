@@ -7,7 +7,7 @@ import ProductFeatures from "../components/ProductFeatures"
 import CallToAction from "../components/CallToAction"
 import {ENGLISH_LANG} from "../constants"
 import HeroImg from "../components/HeroImg"
-import Seo from "../components/SEO"
+import Seo from "../components/Seo"
 
 
 const IndexPage = () => (
