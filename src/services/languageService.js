@@ -149,6 +149,12 @@ export function ddebug() {
     return allText;
 }
 
-export function t(text, lang = ENGLISH_LANG) {
-    return allText[lang][text]
+/**
+ * Returns the translated textId for the given textId and lang
+ * @param textId - unique id for the text
+ * @param lang - language to display the text
+ * @returns {string} - text to display in the requested language
+ */
+export function t(textId, lang = ENGLISH_LANG) {
+    return allText[lang][textId]
 }

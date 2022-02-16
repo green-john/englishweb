@@ -8,7 +8,7 @@ import CallToAction from "../../components/CallToAction"
 import HeroImg from "../../components/HeroImg"
 import Seo from "../../components/Seo"
 
-const IndexPage = ({params}) => {
+export default function IndexPage({params}) {
     const {lang} = params;
     return (
       <Layout lang={lang}>
@@ -21,5 +21,3 @@ const IndexPage = ({params}) => {
       </Layout>
     )
 }
-
-export default IndexPage
