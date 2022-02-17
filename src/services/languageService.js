@@ -31,7 +31,7 @@ export const FORM_MSG_LABEL = "formMsgLabel"
 const allText = {
     [ENGLISH_LANG]: {
         [CONTACT_US]: "Contact Us",
-        [CONTACT_US_SUBHEADING]: "Feel free to contact us with any questions",
+        [CONTACT_US_SUBHEADING]: "Looking for a free quote? Have any questions about our services? Send us a message and we'll get back to you shortly!",
         [VALUE_PROP_MAIN_TEXT]: "Save time. Earn more.",
         [VALUE_PROP_DESC]: " Sell more with professionally developed and translated websites. Our " +
         "team offers you language and computer experts to help your business reach all corners of the world",
@@ -61,7 +61,7 @@ const allText = {
     },
     [CROATIAN_LANG]: {
         [CONTACT_US]: "Kontaktirajte nas",
-        [CONTACT_US_SUBHEADING]: "Contact Us",
+        [CONTACT_US_SUBHEADING]: "Tražite besplatnu ponudu? Imate li pitanja o našim uslugama? Pošaljite nam poruku i javit ćemo vam se uskoro!",
         [VALUE_PROP_MAIN_TEXT]: "Uštedite vrijeme. Zaradite više.",
         [VALUE_PROP_DESC]: "Razumijemo koliko je važno imati dobru web stranicu. Zato smo okupili naše jezične i računalne " +
         "stručnjake, kako bismo pomogli dosegnuti sva globalna tržišta.",
@@ -82,11 +82,11 @@ const allText = {
         [HEADER_HOME]: "Povratak",
         [HEADER_BENEFITS]: "Povlastice",
         [HEADER_FEATURES]: "Značajke",
-        [ABOUT_HEADER]: "About",
+        [ABOUT_HEADER]: "O nama",
         [BLOG_HEADER]: "Blog",
-        [FORM_NAME_LABEL]: "Name",
+        [FORM_NAME_LABEL]: "Ime",
         [FORM_EMAIL_LABEL]: "Email",
-        [FORM_MSG_LABEL]: "Message",
+        [FORM_MSG_LABEL]: "Obavijest",
     },
     [SPANISH_LANG]: {
         [CONTACT_US]: "Contactenos",
@@ -139,9 +139,9 @@ const allText = {
         [HEADER_HOME]: "Главная",
         [HEADER_BENEFITS]: "Преимущества",
         [HEADER_FEATURES]: "Особенности",
-        [ABOUT_HEADER]: "About Us",
-        [BLOG_HEADER]: "Blog",
-        [FORM_NAME_LABEL]: "Name",
+        [ABOUT_HEADER]: "О нас",
+        [BLOG_HEADER]: "Блог",
+        [FORM_NAME_LABEL]: "Имя",
     }
 }
 

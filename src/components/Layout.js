@@ -1,11 +1,10 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 import Header from "./Header"
 import Footer from "./Footer"
 import "../styles/index.scss"
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { faGlobe, faGlobeAmericas } from "@fortawesome/free-solid-svg-icons"
+import {library} from "@fortawesome/fontawesome-svg-core"
+import {faGlobe, faGlobeAmericas} from "@fortawesome/free-solid-svg-icons"
 
 library.add(faGlobe, faGlobeAmericas)
 

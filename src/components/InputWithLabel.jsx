@@ -11,7 +11,7 @@ export default function InputWithLabel({label = '', fieldId = '', useTextArea = 
           name={fieldId}
           id={fieldId}
           autoComplete={fieldId}
-          className="mt-1 border h-8 block w-full border-gray-400 rounded-sm"
+          className="mt-1 border h-8 block w-full border-gray-400 rounded-md"
         />}
         {useTextArea &&
         <div className="mt-1">
@@ -19,7 +19,7 @@ export default function InputWithLabel({label = '', fieldId = '', useTextArea = 
               id={fieldId}
               name={fieldId}
               rows={3}
-              className="mt-1 block w-full border border-gray-400 rounded-sm"
+              className="mt-1 block w-full border border-gray-400 rounded-md"
               placeholder=""
               defaultValue={''}
             />

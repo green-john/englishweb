@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../../../components/Layout";
-import {CONTACT_US, FORM_EMAIL_LABEL, FORM_MSG_LABEL, t} from "../../../services/languageService";
+import {CONTACT_US, FORM_EMAIL_LABEL, FORM_MSG_LABEL, FORM_NAME_LABEL, t} from "../../../services/languageService";
 import InputWithLabel from "../../../components/InputWithLabel";
 import ContactHeader from "../../../components/ContactHeader";
 
@@ -15,6 +15,7 @@ export default function Contact({params}) {
                         <div className="px-4 py-5 sm:p-6 md:p-9">
                             <ContactHeader lang={lang}/>
                             <div className="grid grid-cols-6 gap-4 w-full">
+                                <InputWithLabel label={t(FORM_NAME_LABEL, lang)} fieldId="name"/>
                                 <InputWithLabel label={t(FORM_EMAIL_LABEL, lang)} fieldId="email"/>
                                 <InputWithLabel label={t(FORM_MSG_LABEL, lang)} fieldId="message" useTextArea={true}/>
                             </div>
