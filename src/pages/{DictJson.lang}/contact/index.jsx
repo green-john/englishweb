@@ -5,18 +5,17 @@ import {CONTACT_US, FORM_EMAIL_LABEL, FORM_MSG_LABEL, FORM_NAME_LABEL, t} from "
 import InputWithLabel from "../../../components/InputWithLabel";
 import ContactHeader from "../../../components/ContactHeader";
 
-export default function Contact({params, path}) {
+export default function Contact({params}) {
     const {lang} = params;
     return <Layout>
         <div className="mt-14 w-screen flex justify-center">
             <div className="sm:w-5/6 md:w-4/6 lg:w-3/6">
                 <form
-                  action={path}
                   name="contact"
                   method="POST"
                   data-netlify="true"
-                  netlify-honeypot="bot-field"
-                  data-netlify-recaptcha="true"
+                  // netlify-honeypot="bot-field"
+                  // data-netlify-recaptcha="true"
                 >
                     <div className="overflow-hidden ">
                         <div className="px-4 py-5 sm:p-6 md:p-9">

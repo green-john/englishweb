@@ -4,6 +4,7 @@ date: "2022-02-08"
 title: "4 reasons you should have a multi-language website"
 lang: "en"
 author: "Makela"
+img: "../../../assets/blog/post1.png"
 ---
 
 It’s no secret that ever since the spring of 2020, business suits and office cubicles have been

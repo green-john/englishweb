@@ -7,6 +7,15 @@ exports.createPages = async function ({actions, graphql}) {
                 lang
                 slug
                 title
+                img {
+                    childImageSharp {
+                        gatsbyImageData  (
+                            width: 1200
+                            placeholder: BLURRED
+                            formats: [AUTO, WEBP]
+                        )
+                    }
+                }
               }
               html
             }
@@ -20,13 +29,13 @@ exports.createPages = async function ({actions, graphql}) {
 
 function createPostsPages(data, postsPerLanguage, createPage) {
     data.forEach(node => {
-        const {slug, lang, title, date} = node.frontmatter;
+        const {slug, lang, title, date, img} = node.frontmatter;
 
         if (!postsPerLanguage.has(lang)) {
             postsPerLanguage.set(lang, []);
         }
 
-        postsPerLanguage.get(lang).push({title, date, slug})
+        postsPerLanguage.get(lang).push({title, date, slug, img})
 
         createPage({
             path: `/${lang}/blog/${slug}`,

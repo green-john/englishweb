@@ -4,6 +4,7 @@ date: "2022-02-08"
 title: "4 razloga zašto biste trebali imati višejezičnu web stranicu"
 lang: "hr"
 author: "Goran"
+img: "../../../assets/blog/post1.png"
 ---
 
 Nije tajna da se od proljeća 2020. poslovna odijela i uredski prostori
