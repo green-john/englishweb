@@ -7,12 +7,16 @@ import ContactHeader from "../../../components/ContactHeader";
 
 export default function Contact({params}) {
     const {lang} = params;
+
+    const postTo = `/${lang}/contact`
+
     return <Layout>
         <div className="mt-14 w-screen flex justify-center">
             <div className="sm:w-5/6 md:w-4/6 lg:w-3/6">
                 <form
                   name="contact"
                   method="POST"
+                  action={postTo}
                   data-netlify="true"
                   // netlify-honeypot="bot-field"
                   // data-netlify-recaptcha="true"
