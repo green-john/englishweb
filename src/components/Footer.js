@@ -15,6 +15,9 @@ const Footer = ({ siteTitle }) => {
           <a target="_blank" rel="noreferrer" href="https://web.facebook.com/English-Web-103037572210974/">
             <div className="social-facebook">Facebook</div>
           </a>
+          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/englishweb.eu">
+            <div className="social-instagram">Instagram</div>
+          </a>
         </div>
       </div>
     </footer>

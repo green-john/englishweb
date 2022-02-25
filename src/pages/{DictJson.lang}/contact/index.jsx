@@ -21,6 +21,7 @@ export default function Contact({params}) {
                   // netlify-honeypot="bot-field"
                   // data-netlify-recaptcha="true"
                 >
+                    <input type="hidden" name="form-name" value="contact"/>
                     <div className="overflow-hidden ">
                         <div className="px-4 py-5 sm:p-6 md:p-9">
                             <ContactHeader lang={lang}/>
