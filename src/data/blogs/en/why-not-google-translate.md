@@ -1,5 +1,5 @@
 ---
-slug: "dont-use-google-translate"
+slug: "google-translate"
 date: "2022-03-02"
 title: "Google Translate: easy translation or long-term enemy?"
 lang: "en"
