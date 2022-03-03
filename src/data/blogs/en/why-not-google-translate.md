@@ -1,5 +1,5 @@
 ---
-slug: "why-not-use-google-translate"
+slug: "dont-use-google-translate"
 date: "2022-03-02"
 title: "Google Translate: easy translation or long-term enemy?"
 lang: "en"
@@ -13,13 +13,13 @@ We’ve all used Google Translate. Perhaps you’re writing an email to
 a multilingual colleague, or in some cases, wandering around a foreign
 country in search of a toilet.
 
-In some cases, Google translate might make the cut for an easy translation.
+In some cases, Google Translate might make the cut for an easy translation.
 Sure, everyone will know that you’ve used Google, but you’ll likely get
 your message across (and hopefully find that toilet!).
 
-However, the last thing you want to do is trust Google translate with
+However, the last thing you want to do is trust Google Translate with
 your business. There are endless horror stories of businesses who have
-used Google translate to operate; not only can it damage a company’s
+used Google Translate to operate; not only can it damage a company’s
 reputation, but it shows a lack of attention to detail to your
 multilingual clients.
 
@@ -32,7 +32,7 @@ start, this article will walk you through the dos and don’ts of translating.
 So, is it ever okay to use Google Translate for your company? Well, the
 short answer is rarely.
 
-## When to use Google translate
+## When to use Google Translate
 
 ### 1) Informal content
 
@@ -57,11 +57,11 @@ by a translator or language professional*. The German-speaking company
 must collaborate with a translator to work on creating content that
 reflects the company and is grammatically correct.
 
-## When not to use Google translate
+## When not to use Google Translate
 
 The truth is, you should never use Google Translate for your business.
 While it’s probably going to be reliable for small phrases and
-greetings, Google translate is still a piece of technology without
+greetings, Google Translate is still a piece of technology without
 language or cultural experience.
 
 ### 1) Marketing your brand
