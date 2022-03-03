@@ -114,7 +114,7 @@ there are only
 Google is designed for mass consumption, and Croatian speakers hardly
 make up that mass.
 
-*picture here*
+![translation](./img1.png)
 
 If you want to say, “ballpark number/figure” in Croatian (a potentially
 very important word on your website), the correct translation would
